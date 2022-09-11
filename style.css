@@ -1,0 +1,169 @@
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+/* Navbar Styling */
+
+nav{
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand-img{
+margin-right: 3px;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+/* Container */
+
+
+h1{
+    font-size: 2.0rem;
+    font-weight:bolder;
+}
+.cont{
+    min-height: 72vh;
+    background-color: black;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('images/bg.jpg');
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    background-repeat: no-repeat;
+    
+    width: 85%;
+    border-radius: 12px;
+    margin:20px auto;
+    padding:34px;
+    flex-direction: column;
+       
+}  
+
+.caro{
+    min-height: 70vh;
+    display: flex;
+    text-align:center;
+    width: 80%;
+    margin:20px auto;
+    padding:0 10%;
+
+}
+
+.car-img{
+    width: 200%;
+}
+
+h5{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color:aliceblue;
+}
+
+
+
+/* Bottom */
+.bottom{
+    height:100px;
+    background-color:rgb(10, 6, 6);
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    flex-direction: column;
+    
+
+}
+.icons{
+    margin-top: 10px;
+}
+
+.bottomI{
+    margin: 0 30px;
+    padding: 3px;
+    cursor: pointer;
+}
+#AudioBar{
+    width:60%;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 45%;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:34px;
+
+
+}
+
+
+
+
+.songItem img{
+    width:43px;
+    margin: 0 10px;
+    border-radius: 34px;
+}
+  
+.timeStamp{
+    margin: 0 23px;
+    
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+
+.songList{
+    margin-top: 19px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 20vw;
+
+}
+.bottom{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .bottom .icons{
+        margin-top:50px;
+    }
+  }
